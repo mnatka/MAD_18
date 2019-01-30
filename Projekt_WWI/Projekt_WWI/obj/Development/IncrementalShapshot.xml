@@ -26,63 +26,63 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.DataSourceView</Type>
-        <TimeStamp>hwEEwKDGiam8cEyjtMJhJxGsSf8=20.01.2019 15:42:3812.01.2019 15:14:46</TimeStamp>
+        <TimeStamp>d5NoXJDFGYLmq0o/WJzCOR6hra8=30.01.2019 18:23:4612.01.2019 15:14:46</TimeStamp>
         <ID>
           <String>Wide World Importers DW</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>zNc1TLuAY7plFfpSVGEWjEfQtSM=20.01.2019 14:47:3517.01.2019 22:44:13</TimeStamp>
+        <TimeStamp>EdBVXR6l4QG21afTa6hwMMCw3z0=30.01.2019 18:05:3917.01.2019 22:44:13</TimeStamp>
         <ID>
           <String>DimCity</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>9TJbwvdwo6HQOF2BoxDdZjbJlXg=18.01.2019 17:27:1517.01.2019 23:16:21</TimeStamp>
+        <TimeStamp>XmJ7xSz6ItlHli2vLPL3dB25AJ0=30.01.2019 18:12:0617.01.2019 23:16:21</TimeStamp>
         <ID>
           <String>DimCustomer</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>HD1589YIgMzGRvsIJ5unEM/rCAE=18.01.2019 17:26:2717.01.2019 23:16:47</TimeStamp>
+        <TimeStamp>Yr9gC0V65e+iKxQYOTsFP8Cx7nI=30.01.2019 18:15:3317.01.2019 23:16:47</TimeStamp>
         <ID>
           <String>DimStockItem</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>RW8WPSnhP8SkKVBcbV1vrbSHfno=20.01.2019 15:49:4518.01.2019 15:39:04</TimeStamp>
+        <TimeStamp>L9oSg01LZqZza2i/RcvLbraCL80=30.01.2019 18:48:4618.01.2019 15:39:04</TimeStamp>
         <ID>
           <String>DimDate</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>wLMwyDk7stkTdFfKVidww+tYYAY=18.01.2019 17:25:3718.01.2019 17:20:27</TimeStamp>
+        <TimeStamp>Var8HWvxVIo9gAP38dBd56CgUhs=30.01.2019 19:04:1018.01.2019 17:20:27</TimeStamp>
         <ID>
           <String>DimSupplier</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>K1XGlTH2dJfUxBydigYZjW9Ef2E=19.01.2019 13:49:4219.01.2019 13:48:48</TimeStamp>
+        <TimeStamp>AjnpGkCCnquHgwnNpSibvnunH1Y=30.01.2019 19:14:0919.01.2019 13:48:48</TimeStamp>
         <ID>
           <String>v Payment Method</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>51wo2fOehW8Lej0Zmu5dwyb2qXM=19.01.2019 13:49:2619.01.2019 13:49:26</TimeStamp>
+        <TimeStamp>5TlTurtNZqQ2bNPxL/UXZpLUo2o=30.01.2019 19:15:5819.01.2019 13:49:26</TimeStamp>
         <ID>
           <String>DimTransactionType</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>goFE9A1PwbOm9FitzoD+9VXpZMg=20.01.2019 15:31:5817.01.2019 23:24:15no6zjDTZgbUYOouq6QFlQS3TFko=19.01.2019 13:51:4517.01.2019 23:24:15</TimeStamp>
+        <TimeStamp>3rDJW1jMB2WIwdnwPPSLafo1G04=30.01.2019 19:31:2617.01.2019 23:24:15no6zjDTZgbUYOouq6QFlQS3TFko=19.01.2019 13:51:4517.01.2019 23:24:15</TimeStamp>
         <ID>
           <String>Wide World Importers DW</String>
         </ID>
@@ -99,5 +99,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2019-01-20T14:50:01.833333Z</LastDeployed>
+  <LastDeployed>2019-01-30T18:31:48.35Z</LastDeployed>
 </DeploymentSnapshot>

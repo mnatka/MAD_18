@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1462" scrolltop="-2567" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="6456" y="10134" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1462" scrolltop="-2567" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="6456" y="10134" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="01ee0000900144420100065461686f6d61" />
             </font>
@@ -19,7 +19,7 @@
           <layoutmanager>
             <ddsxmlobj />
           </layoutmanager>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="vDimCustomer" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3493" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="vDimCustomer" left="20" top="0" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="3493" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000c0000a50d000088130000" />
             </control>
@@ -104,14 +104,6 @@
           <AttributeID>WWI Customer ID</AttributeID>
           <Name>WWI Customer ID</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="46fcd328-db97-4455-a2e6-b95f5f0ed7fb">
-          <AttributeID>Customer</AttributeID>
-          <Name>Customer</Name>
-        </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="df3c4ef9-fc8b-4ab3-beb0-58051f026faf">
-          <AttributeID>Bill To Customer</AttributeID>
-          <Name>Bill To Customer</Name>
-        </AttributeRelationship>
         <AttributeRelationship dwd:design-time-name="a237b3c5-9a0c-4ef9-84e8-68f8360bfb76">
           <AttributeID>Category</AttributeID>
           <Name>Category</Name>
@@ -128,18 +120,6 @@
           <AttributeID>Postal Code</AttributeID>
           <Name>Postal Code</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="d9ac00fd-3c19-4e7d-a4f9-1adacfbeb56c">
-          <AttributeID>Valid From</AttributeID>
-          <Name>Valid From</Name>
-        </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="7d12f69e-c07a-4f34-9e11-3688097a18b1">
-          <AttributeID>Valid To</AttributeID>
-          <Name>Valid To</Name>
-        </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="9d8b99d2-37c0-4ee2-acd7-b0e5ce99c757">
-          <AttributeID>Lineage Key</AttributeID>
-          <Name>Lineage Key</Name>
-        </AttributeRelationship>
       </AttributeRelationships>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
@@ -154,40 +134,6 @@
           <Source xsi:type="ColumnBinding" dwd:design-time-name="1090a214-83ad-4b90-b657-a669696ba749">
             <TableID>olap_vDimCustomer</TableID>
             <ColumnID>WWI_x0020_Customer_x0020_ID</ColumnID>
-          </Source>
-        </KeyColumn>
-      </KeyColumns>
-      <OrderBy>Key</OrderBy>
-      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-    </Attribute>
-    <Attribute dwd:design-time-name="f4b19553-d5a3-47a9-8e91-80472055b2a4">
-      <ID>Customer</ID>
-      <Name>Customer</Name>
-      <KeyColumns>
-        <KeyColumn dwd:design-time-name="5464249c-c1c3-45a7-85bb-fb40787e7928">
-          <DataType>WChar</DataType>
-          <DataSize>100</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="7e984fb9-29ec-4d8a-9ecc-9c8a4fa2b560">
-            <TableID>olap_vDimCustomer</TableID>
-            <ColumnID>Customer</ColumnID>
-          </Source>
-        </KeyColumn>
-      </KeyColumns>
-      <OrderBy>Key</OrderBy>
-      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-    </Attribute>
-    <Attribute dwd:design-time-name="e8256aa3-33cc-4eb1-9fa8-8d9a786e2916">
-      <ID>Bill To Customer</ID>
-      <Name>Bill To Customer</Name>
-      <KeyColumns>
-        <KeyColumn dwd:design-time-name="be16d9af-008d-474f-bd1f-cc8c048b0269">
-          <DataType>WChar</DataType>
-          <DataSize>100</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="a8a098bf-6530-4413-b833-7fcbed0218ff">
-            <TableID>olap_vDimCustomer</TableID>
-            <ColumnID>Bill_x0020_To_x0020_Customer</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
@@ -256,54 +202,6 @@
           <Source xsi:type="ColumnBinding" dwd:design-time-name="690597e8-050c-47a5-9546-3404accc7e04">
             <TableID>olap_vDimCustomer</TableID>
             <ColumnID>Postal_x0020_Code</ColumnID>
-          </Source>
-        </KeyColumn>
-      </KeyColumns>
-      <OrderBy>Key</OrderBy>
-      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-    </Attribute>
-    <Attribute dwd:design-time-name="9df5f1c4-6e17-4c52-b616-50226c476d2b">
-      <ID>Valid From</ID>
-      <Name>Valid From</Name>
-      <KeyColumns>
-        <KeyColumn dwd:design-time-name="aeccfcee-c6ab-49c3-9202-925504412ebd">
-          <DataType>Date</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="e8580b20-ad69-4fd8-b4c7-b6742ce5f97f">
-            <TableID>olap_vDimCustomer</TableID>
-            <ColumnID>Valid_x0020_From</ColumnID>
-          </Source>
-        </KeyColumn>
-      </KeyColumns>
-      <OrderBy>Key</OrderBy>
-      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-    </Attribute>
-    <Attribute dwd:design-time-name="dd1b68c3-5a32-48e8-9c40-105aa1617c32">
-      <ID>Valid To</ID>
-      <Name>Valid To</Name>
-      <KeyColumns>
-        <KeyColumn dwd:design-time-name="e52edf0d-7d0b-4b01-abc0-40b80fd44486">
-          <DataType>Date</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="0fa8d2a0-6d06-4b4e-ade9-fb453eccbfcc">
-            <TableID>olap_vDimCustomer</TableID>
-            <ColumnID>Valid_x0020_To</ColumnID>
-          </Source>
-        </KeyColumn>
-      </KeyColumns>
-      <OrderBy>Key</OrderBy>
-      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-    </Attribute>
-    <Attribute dwd:design-time-name="b7649df4-4a6e-4456-ab3a-08b9995a784d">
-      <ID>Lineage Key</ID>
-      <Name>Lineage Key</Name>
-      <KeyColumns>
-        <KeyColumn dwd:design-time-name="6651261c-a7be-4b19-a37d-6f4de0919e52">
-          <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="27bdf631-4af9-4b87-ac7e-cad001ef0d19">
-            <TableID>olap_vDimCustomer</TableID>
-            <ColumnID>Lineage_x0020_Key</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>

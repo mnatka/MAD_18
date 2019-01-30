@@ -6,6 +6,32 @@
   <Annotations>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-946" scrolltop="-3281" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="6456" y="10134" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01ee0000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="vTransactionType" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="4524" height="3572" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c0000ac110000f40d0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="olap_vTransactionType" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
@@ -21,15 +47,15 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
-      <Value>0</Value>
+      <Value>-946</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-      <Value>0</Value>
+      <Value>-3281</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
-      <Value>0</Value>
+      <Value>20</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
@@ -78,18 +104,6 @@
           <AttributeID>WWI Transaction Type ID</AttributeID>
           <Name>WWI Transaction Type ID</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="df05ed2e-afe3-4011-8f56-316bc5d718f8">
-          <AttributeID>Valid From</AttributeID>
-          <Name>Valid From</Name>
-        </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="f8d290ce-0193-49d7-baa0-a389dbc07c66">
-          <AttributeID>Valid To</AttributeID>
-          <Name>Valid To</Name>
-        </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="508866be-3512-4946-a32b-f1dd5900c36f">
-          <AttributeID>Lineage Key</AttributeID>
-          <Name>Lineage Key</Name>
-        </AttributeRelationship>
       </AttributeRelationships>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
@@ -103,54 +117,6 @@
           <Source xsi:type="ColumnBinding" dwd:design-time-name="f9e35f4a-750b-4b3b-baf5-db8e0dd7f24b">
             <TableID>olap_vTransactionType</TableID>
             <ColumnID>WWI_x0020_Transaction_x0020_Type_x0020_ID</ColumnID>
-          </Source>
-        </KeyColumn>
-      </KeyColumns>
-      <OrderBy>Key</OrderBy>
-      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-    </Attribute>
-    <Attribute dwd:design-time-name="a3bee3f1-3453-4a9e-8106-e43ff9053019">
-      <ID>Valid From</ID>
-      <Name>Valid From</Name>
-      <KeyColumns>
-        <KeyColumn dwd:design-time-name="e1f16c8d-4fcd-46e4-8247-3e878ae6ec6e">
-          <DataType>Date</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="4d8062d9-3eb5-4351-993d-287f1cb60b72">
-            <TableID>olap_vTransactionType</TableID>
-            <ColumnID>Valid_x0020_From</ColumnID>
-          </Source>
-        </KeyColumn>
-      </KeyColumns>
-      <OrderBy>Key</OrderBy>
-      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-    </Attribute>
-    <Attribute dwd:design-time-name="730ff4fd-6a84-4e5d-a7aa-45d67541ba5a">
-      <ID>Valid To</ID>
-      <Name>Valid To</Name>
-      <KeyColumns>
-        <KeyColumn dwd:design-time-name="be21c284-d05c-49a9-a721-1ba76c6f9f6b">
-          <DataType>Date</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="b841591b-3697-4115-bbc7-4fcfdacf2021">
-            <TableID>olap_vTransactionType</TableID>
-            <ColumnID>Valid_x0020_To</ColumnID>
-          </Source>
-        </KeyColumn>
-      </KeyColumns>
-      <OrderBy>Key</OrderBy>
-      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-    </Attribute>
-    <Attribute dwd:design-time-name="8a7729d7-5113-4072-aba0-59053cd37982">
-      <ID>Lineage Key</ID>
-      <Name>Lineage Key</Name>
-      <KeyColumns>
-        <KeyColumn dwd:design-time-name="f9408597-d907-4045-891b-036b26a11723">
-          <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="22437377-bd32-49ab-be66-76ab0f9fbecf">
-            <TableID>olap_vTransactionType</TableID>
-            <ColumnID>Lineage_x0020_Key</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>

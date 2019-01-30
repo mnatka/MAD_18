@@ -32,7 +32,7 @@
               <layoutmanager>
                 <ddsxmlobj />
               </layoutmanager>
-              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="vDimCity" left="20" top="0" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="4710" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="vDimCity" left="20" top="-1058" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="4710" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                 <control>
                   <ddsxmlobjectstreaminitwrapper binary="000c00006612000088130000" />
                 </control>
@@ -72,7 +72,7 @@
         </Annotation>
         <Annotation>
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
-          <Value>0</Value>
+          <Value>-1058</Value>
         </Annotation>
         <Annotation>
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
@@ -157,84 +157,12 @@
           </NameColumn>
           <AttributeRelationships>
             <AttributeRelationship>
-              <AttributeID>WWI City ID</AttributeID>
-              <Name>WWI City ID</Name>
-            </AttributeRelationship>
-            <AttributeRelationship>
-              <AttributeID>City</AttributeID>
-              <Name>City</Name>
-            </AttributeRelationship>
-            <AttributeRelationship>
               <AttributeID>State Province</AttributeID>
               <Name>State Province</Name>
             </AttributeRelationship>
-            <AttributeRelationship>
-              <AttributeID>Sales Territory</AttributeID>
-              <Name>Sales Territory</Name>
-            </AttributeRelationship>
-            <AttributeRelationship>
-              <AttributeID>Region</AttributeID>
-              <Name>Region</Name>
-            </AttributeRelationship>
-            <AttributeRelationship>
-              <AttributeID>Subregion</AttributeID>
-              <Name>Subregion</Name>
-            </AttributeRelationship>
-            <AttributeRelationship>
-              <AttributeID>Location</AttributeID>
-              <Name>Location</Name>
-            </AttributeRelationship>
-            <AttributeRelationship>
-              <AttributeID>Latest Recorded Population</AttributeID>
-              <Name>Latest Recorded Population</Name>
-            </AttributeRelationship>
-            <AttributeRelationship>
-              <AttributeID>Valid From</AttributeID>
-              <Name>Valid From</Name>
-            </AttributeRelationship>
-            <AttributeRelationship>
-              <AttributeID>Valid To</AttributeID>
-              <Name>Valid To</Name>
-            </AttributeRelationship>
-            <AttributeRelationship>
-              <AttributeID>Lineage Key</AttributeID>
-              <Name>Lineage Key</Name>
-            </AttributeRelationship>
           </AttributeRelationships>
           <OrderBy>Key</OrderBy>
-          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-        </Attribute>
-        <Attribute>
-          <ID>WWI City ID</ID>
-          <Name>WWI City ID</Name>
-          <KeyColumns>
-            <KeyColumn>
-              <DataType>Integer</DataType>
-              <Source xsi:type="ColumnBinding">
-                <TableID>olap_vDimCity</TableID>
-                <ColumnID>WWI_x0020_City_x0020_ID</ColumnID>
-              </Source>
-            </KeyColumn>
-          </KeyColumns>
-          <OrderBy>Key</OrderBy>
-          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-        </Attribute>
-        <Attribute>
-          <ID>City</ID>
-          <Name>City</Name>
-          <KeyColumns>
-            <KeyColumn>
-              <DataType>WChar</DataType>
-              <DataSize>50</DataSize>
-              <Source xsi:type="ColumnBinding">
-                <TableID>olap_vDimCity</TableID>
-                <ColumnID>City</ColumnID>
-              </Source>
-            </KeyColumn>
-          </KeyColumns>
-          <OrderBy>Key</OrderBy>
+          <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
           <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
           <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
         </Attribute>
@@ -258,6 +186,7 @@
             </AttributeRelationship>
           </AttributeRelationships>
           <OrderBy>Key</OrderBy>
+          <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
           <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
           <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
         </Attribute>
@@ -281,6 +210,7 @@
             </AttributeRelationship>
           </AttributeRelationships>
           <OrderBy>Key</OrderBy>
+          <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
           <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
           <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
         </Attribute>
@@ -298,145 +228,7 @@
             </KeyColumn>
           </KeyColumns>
           <OrderBy>Key</OrderBy>
-          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-        </Attribute>
-        <Attribute>
-          <ID>Sales Territory</ID>
-          <Name>Sales Territory</Name>
-          <KeyColumns>
-            <KeyColumn>
-              <DataType>WChar</DataType>
-              <DataSize>50</DataSize>
-              <Source xsi:type="ColumnBinding">
-                <TableID>olap_vDimCity</TableID>
-                <ColumnID>Sales_x0020_Territory</ColumnID>
-              </Source>
-            </KeyColumn>
-          </KeyColumns>
-          <OrderBy>Key</OrderBy>
-          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-        </Attribute>
-        <Attribute>
-          <ID>Region</ID>
-          <Name>Region</Name>
-          <KeyColumns>
-            <KeyColumn>
-              <DataType>WChar</DataType>
-              <DataSize>30</DataSize>
-              <Source xsi:type="ColumnBinding">
-                <TableID>olap_vDimCity</TableID>
-                <ColumnID>Region</ColumnID>
-              </Source>
-            </KeyColumn>
-          </KeyColumns>
-          <OrderBy>Key</OrderBy>
-          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-        </Attribute>
-        <Attribute>
-          <ID>Subregion</ID>
-          <Name>Subregion</Name>
-          <KeyColumns>
-            <KeyColumn>
-              <DataType>WChar</DataType>
-              <DataSize>30</DataSize>
-              <Source xsi:type="ColumnBinding">
-                <TableID>olap_vDimCity</TableID>
-                <ColumnID>Subregion</ColumnID>
-              </Source>
-            </KeyColumn>
-          </KeyColumns>
-          <OrderBy>Key</OrderBy>
-          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-        </Attribute>
-        <Attribute>
-          <ID>Location</ID>
-          <Name>Location</Name>
-          <KeyColumns>
-            <KeyColumn>
-              <DataType>Integer</DataType>
-              <Source xsi:type="ColumnBinding">
-                <TableID>olap_vDimCity</TableID>
-                <ColumnID>City_x0020_Key</ColumnID>
-              </Source>
-            </KeyColumn>
-          </KeyColumns>
-          <OrderBy>Key</OrderBy>
-          <ValueColumn>
-            <DataType>Binary</DataType>
-            <Source xsi:type="ColumnBinding">
-              <TableID>olap_vDimCity</TableID>
-              <ColumnID>Location</ColumnID>
-            </Source>
-          </ValueColumn>
-          <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
-          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-        </Attribute>
-        <Attribute>
-          <ID>Latest Recorded Population</ID>
-          <Name>Latest Recorded Population</Name>
-          <KeyColumns>
-            <KeyColumn>
-              <DataType>BigInt</DataType>
-              <Source xsi:type="ColumnBinding">
-                <TableID>olap_vDimCity</TableID>
-                <ColumnID>Latest_x0020_Recorded_x0020_Population</ColumnID>
-              </Source>
-            </KeyColumn>
-          </KeyColumns>
-          <OrderBy>Key</OrderBy>
-          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-        </Attribute>
-        <Attribute>
-          <ID>Valid From</ID>
-          <Name>Valid From</Name>
-          <KeyColumns>
-            <KeyColumn>
-              <DataType>Date</DataType>
-              <Source xsi:type="ColumnBinding">
-                <TableID>olap_vDimCity</TableID>
-                <ColumnID>Valid_x0020_From</ColumnID>
-              </Source>
-            </KeyColumn>
-          </KeyColumns>
-          <OrderBy>Key</OrderBy>
-          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-        </Attribute>
-        <Attribute>
-          <ID>Valid To</ID>
-          <Name>Valid To</Name>
-          <KeyColumns>
-            <KeyColumn>
-              <DataType>Date</DataType>
-              <Source xsi:type="ColumnBinding">
-                <TableID>olap_vDimCity</TableID>
-                <ColumnID>Valid_x0020_To</ColumnID>
-              </Source>
-            </KeyColumn>
-          </KeyColumns>
-          <OrderBy>Key</OrderBy>
-          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-        </Attribute>
-        <Attribute>
-          <ID>Lineage Key</ID>
-          <Name>Lineage Key</Name>
-          <KeyColumns>
-            <KeyColumn>
-              <DataType>Integer</DataType>
-              <Source xsi:type="ColumnBinding">
-                <TableID>olap_vDimCity</TableID>
-                <ColumnID>Lineage_x0020_Key</ColumnID>
-              </Source>
-            </KeyColumn>
-          </KeyColumns>
-          <OrderBy>Key</OrderBy>
+          <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
           <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
           <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
         </Attribute>
@@ -481,7 +273,7 @@
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
           <Value>
             <dds xmlns="">
-              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1462" scrolltop="-2567" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="6456" y="10134" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1462" scrolltop="-2567" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="6456" y="10134" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
                 <font>
                   <ddsxmlobjectstreamwrapper binary="01ee0000900144420100065461686f6d61" />
                 </font>
@@ -492,7 +284,7 @@
               <layoutmanager>
                 <ddsxmlobj />
               </layoutmanager>
-              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="vDimCustomer" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3493" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="vDimCustomer" left="20" top="0" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="3493" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                 <control>
                   <ddsxmlobjectstreaminitwrapper binary="000c0000a50d000088130000" />
                 </control>
@@ -578,14 +370,6 @@
               <Name>WWI Customer ID</Name>
             </AttributeRelationship>
             <AttributeRelationship>
-              <AttributeID>Customer</AttributeID>
-              <Name>Customer</Name>
-            </AttributeRelationship>
-            <AttributeRelationship>
-              <AttributeID>Bill To Customer</AttributeID>
-              <Name>Bill To Customer</Name>
-            </AttributeRelationship>
-            <AttributeRelationship>
               <AttributeID>Category</AttributeID>
               <Name>Category</Name>
             </AttributeRelationship>
@@ -601,18 +385,6 @@
               <AttributeID>Postal Code</AttributeID>
               <Name>Postal Code</Name>
             </AttributeRelationship>
-            <AttributeRelationship>
-              <AttributeID>Valid From</AttributeID>
-              <Name>Valid From</Name>
-            </AttributeRelationship>
-            <AttributeRelationship>
-              <AttributeID>Valid To</AttributeID>
-              <Name>Valid To</Name>
-            </AttributeRelationship>
-            <AttributeRelationship>
-              <AttributeID>Lineage Key</AttributeID>
-              <Name>Lineage Key</Name>
-            </AttributeRelationship>
           </AttributeRelationships>
           <OrderBy>Key</OrderBy>
           <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
@@ -627,40 +399,6 @@
               <Source xsi:type="ColumnBinding">
                 <TableID>olap_vDimCustomer</TableID>
                 <ColumnID>WWI_x0020_Customer_x0020_ID</ColumnID>
-              </Source>
-            </KeyColumn>
-          </KeyColumns>
-          <OrderBy>Key</OrderBy>
-          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-        </Attribute>
-        <Attribute>
-          <ID>Customer</ID>
-          <Name>Customer</Name>
-          <KeyColumns>
-            <KeyColumn>
-              <DataType>WChar</DataType>
-              <DataSize>100</DataSize>
-              <Source xsi:type="ColumnBinding">
-                <TableID>olap_vDimCustomer</TableID>
-                <ColumnID>Customer</ColumnID>
-              </Source>
-            </KeyColumn>
-          </KeyColumns>
-          <OrderBy>Key</OrderBy>
-          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-        </Attribute>
-        <Attribute>
-          <ID>Bill To Customer</ID>
-          <Name>Bill To Customer</Name>
-          <KeyColumns>
-            <KeyColumn>
-              <DataType>WChar</DataType>
-              <DataSize>100</DataSize>
-              <Source xsi:type="ColumnBinding">
-                <TableID>olap_vDimCustomer</TableID>
-                <ColumnID>Bill_x0020_To_x0020_Customer</ColumnID>
               </Source>
             </KeyColumn>
           </KeyColumns>
@@ -736,54 +474,6 @@
           <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
           <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
         </Attribute>
-        <Attribute>
-          <ID>Valid From</ID>
-          <Name>Valid From</Name>
-          <KeyColumns>
-            <KeyColumn>
-              <DataType>Date</DataType>
-              <Source xsi:type="ColumnBinding">
-                <TableID>olap_vDimCustomer</TableID>
-                <ColumnID>Valid_x0020_From</ColumnID>
-              </Source>
-            </KeyColumn>
-          </KeyColumns>
-          <OrderBy>Key</OrderBy>
-          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-        </Attribute>
-        <Attribute>
-          <ID>Valid To</ID>
-          <Name>Valid To</Name>
-          <KeyColumns>
-            <KeyColumn>
-              <DataType>Date</DataType>
-              <Source xsi:type="ColumnBinding">
-                <TableID>olap_vDimCustomer</TableID>
-                <ColumnID>Valid_x0020_To</ColumnID>
-              </Source>
-            </KeyColumn>
-          </KeyColumns>
-          <OrderBy>Key</OrderBy>
-          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-        </Attribute>
-        <Attribute>
-          <ID>Lineage Key</ID>
-          <Name>Lineage Key</Name>
-          <KeyColumns>
-            <KeyColumn>
-              <DataType>Integer</DataType>
-              <Source xsi:type="ColumnBinding">
-                <TableID>olap_vDimCustomer</TableID>
-                <ColumnID>Lineage_x0020_Key</ColumnID>
-              </Source>
-            </KeyColumn>
-          </KeyColumns>
-          <OrderBy>Key</OrderBy>
-          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-        </Attribute>
       </Attributes>
       <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
     </Dimension>
@@ -797,7 +487,7 @@
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
           <Value>
             <dds xmlns="">
-              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-893" scrolltop="-2567" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="6456" y="10134" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-893" scrolltop="-2567" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="6456" y="10134" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
                 <font>
                   <ddsxmlobjectstreamwrapper binary="01ee0000900144420100065461686f6d61" />
                 </font>
@@ -808,7 +498,7 @@
               <layoutmanager>
                 <ddsxmlobj />
               </layoutmanager>
-              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="vDimStockItem" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="4630" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="vDimStockItem" left="20" top="0" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="4630" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                 <control>
                   <ddsxmlobjectstreaminitwrapper binary="000c00001612000088130000" />
                 </control>
@@ -854,6 +544,40 @@
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
           <Value>100</Value>
         </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+          <Value>
+            <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+              <Shapes NodeWidth="181">
+                <Shape Id="Stock Item Key" Expanded="true">
+                  <Attributes>
+                    <Attribute Id="Stock Item Key" />
+                    <Attribute Id="Barcode" />
+                    <Attribute Id="Brand" />
+                    <Attribute Id="Buying Package" />
+                    <Attribute Id="Color" />
+                    <Attribute Id="Is Chiller Stock" />
+                    <Attribute Id="Lead Time Days" />
+                    <Attribute Id="Lineage Key" />
+                    <Attribute Id="Photo" />
+                    <Attribute Id="Quantity Per Outer" />
+                    <Attribute Id="Recommended Retail Price" />
+                    <Attribute Id="Selling Package" />
+                    <Attribute Id="Size" />
+                    <Attribute Id="Stock Item" />
+                    <Attribute Id="Tax Rate" />
+                    <Attribute Id="Typical Weight Per Unit" />
+                    <Attribute Id="Unit Price" />
+                    <Attribute Id="Valid From" />
+                    <Attribute Id="Valid To" />
+                    <Attribute Id="WWI Stock Item ID" />
+                  </Attributes>
+                  <Position x="20" y="20" />
+                </Shape>
+              </Shapes>
+            </DiagramLayout>
+          </Value>
+        </Annotation>
       </Annotations>
       <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
       <State>Unprocessed</State>
@@ -894,10 +618,6 @@
               <Name>WWI Stock Item ID</Name>
             </AttributeRelationship>
             <AttributeRelationship>
-              <AttributeID>Stock Item</AttributeID>
-              <Name>Stock Item</Name>
-            </AttributeRelationship>
-            <AttributeRelationship>
               <AttributeID>Color</AttributeID>
               <Name>Color</Name>
             </AttributeRelationship>
@@ -912,10 +632,6 @@
             <AttributeRelationship>
               <AttributeID>Brand</AttributeID>
               <Name>Brand</Name>
-            </AttributeRelationship>
-            <AttributeRelationship>
-              <AttributeID>Size</AttributeID>
-              <Name>Size</Name>
             </AttributeRelationship>
             <AttributeRelationship>
               <AttributeID>Lead Time Days</AttributeID>
@@ -953,18 +669,6 @@
               <AttributeID>Photo</AttributeID>
               <Name>Photo</Name>
             </AttributeRelationship>
-            <AttributeRelationship>
-              <AttributeID>Valid From</AttributeID>
-              <Name>Valid From</Name>
-            </AttributeRelationship>
-            <AttributeRelationship>
-              <AttributeID>Valid To</AttributeID>
-              <Name>Valid To</Name>
-            </AttributeRelationship>
-            <AttributeRelationship>
-              <AttributeID>Lineage Key</AttributeID>
-              <Name>Lineage Key</Name>
-            </AttributeRelationship>
           </AttributeRelationships>
           <OrderBy>Key</OrderBy>
           <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
@@ -979,23 +683,6 @@
               <Source xsi:type="ColumnBinding">
                 <TableID>olap_vDimStockItem</TableID>
                 <ColumnID>WWI_x0020_Stock_x0020_Item_x0020_ID</ColumnID>
-              </Source>
-            </KeyColumn>
-          </KeyColumns>
-          <OrderBy>Key</OrderBy>
-          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-        </Attribute>
-        <Attribute>
-          <ID>Stock Item</ID>
-          <Name>Stock Item</Name>
-          <KeyColumns>
-            <KeyColumn>
-              <DataType>WChar</DataType>
-              <DataSize>100</DataSize>
-              <Source xsi:type="ColumnBinding">
-                <TableID>olap_vDimStockItem</TableID>
-                <ColumnID>Stock_x0020_Item</ColumnID>
               </Source>
             </KeyColumn>
           </KeyColumns>
@@ -1064,23 +751,6 @@
               <Source xsi:type="ColumnBinding">
                 <TableID>olap_vDimStockItem</TableID>
                 <ColumnID>Brand</ColumnID>
-              </Source>
-            </KeyColumn>
-          </KeyColumns>
-          <OrderBy>Key</OrderBy>
-          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-        </Attribute>
-        <Attribute>
-          <ID>Size</ID>
-          <Name>Size</Name>
-          <KeyColumns>
-            <KeyColumn>
-              <DataType>WChar</DataType>
-              <DataSize>20</DataSize>
-              <Source xsi:type="ColumnBinding">
-                <TableID>olap_vDimStockItem</TableID>
-                <ColumnID>Size</ColumnID>
               </Source>
             </KeyColumn>
           </KeyColumns>
@@ -1241,54 +911,6 @@
           <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
           <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
         </Attribute>
-        <Attribute>
-          <ID>Valid From</ID>
-          <Name>Valid From</Name>
-          <KeyColumns>
-            <KeyColumn>
-              <DataType>Date</DataType>
-              <Source xsi:type="ColumnBinding">
-                <TableID>olap_vDimStockItem</TableID>
-                <ColumnID>Valid_x0020_From</ColumnID>
-              </Source>
-            </KeyColumn>
-          </KeyColumns>
-          <OrderBy>Key</OrderBy>
-          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-        </Attribute>
-        <Attribute>
-          <ID>Valid To</ID>
-          <Name>Valid To</Name>
-          <KeyColumns>
-            <KeyColumn>
-              <DataType>Date</DataType>
-              <Source xsi:type="ColumnBinding">
-                <TableID>olap_vDimStockItem</TableID>
-                <ColumnID>Valid_x0020_To</ColumnID>
-              </Source>
-            </KeyColumn>
-          </KeyColumns>
-          <OrderBy>Key</OrderBy>
-          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-        </Attribute>
-        <Attribute>
-          <ID>Lineage Key</ID>
-          <Name>Lineage Key</Name>
-          <KeyColumns>
-            <KeyColumn>
-              <DataType>Integer</DataType>
-              <Source xsi:type="ColumnBinding">
-                <TableID>olap_vDimStockItem</TableID>
-                <ColumnID>Lineage_x0020_Key</ColumnID>
-              </Source>
-            </KeyColumn>
-          </KeyColumns>
-          <OrderBy>Key</OrderBy>
-          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-        </Attribute>
       </Attributes>
       <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
     </Dimension>
@@ -1302,7 +924,7 @@
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
           <Value>
             <dds xmlns="">
-              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1078" scrolltop="-2567" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="6456" y="10134" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1078" scrolltop="-2567" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="6456" y="10134" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
                 <font>
                   <ddsxmlobjectstreamwrapper binary="01ee0000900144420100065461686f6d61" />
                 </font>
@@ -1313,7 +935,7 @@
               <layoutmanager>
                 <ddsxmlobj />
               </layoutmanager>
-              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="vDimDate" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="4260" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="vDimDate" left="20" top="0" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="4260" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                 <control>
                   <ddsxmlobjectstreaminitwrapper binary="000c0000a410000088130000" />
                 </control>
@@ -1371,8 +993,6 @@
                     <Attribute Id="Calendar Year Label" />
                     <Attribute Id="Day" />
                     <Attribute Id="Fiscal Month Label" />
-                    <Attribute Id="Fiscal Month Number" />
-                    <Attribute Id="Fiscal Year" />
                     <Attribute Id="Fiscal Year Label" />
                     <Attribute Id="ISO Week Number" />
                     <Attribute Id="Month" />
@@ -1380,23 +1000,35 @@
                   </Attributes>
                   <Position x="20" y="20" />
                 </Shape>
+                <Shape Id="Fiscal Month Number" Expanded="false">
+                  <Attributes>
+                    <Attribute Id="Fiscal Month Number" />
+                  </Attributes>
+                  <Position x="233" y="20" />
+                </Shape>
+                <Shape Id="Fiscal Year" Expanded="false">
+                  <Attributes>
+                    <Attribute Id="Fiscal Year" />
+                  </Attributes>
+                  <Position x="447" y="20" />
+                </Shape>
                 <Shape Id="Day Number" Expanded="false">
                   <Attributes>
                     <Attribute Id="Day Number" />
                   </Attributes>
-                  <Position x="233" y="20" />
+                  <Position x="233" y="68" />
                 </Shape>
                 <Shape Id="Calendar Month Number" Expanded="false">
                   <Attributes>
                     <Attribute Id="Calendar Month Number" />
                   </Attributes>
-                  <Position x="447" y="20" />
+                  <Position x="447" y="68" />
                 </Shape>
                 <Shape Id="Calendar Year" Expanded="false">
                   <Attributes>
                     <Attribute Id="Calendar Year" />
                   </Attributes>
-                  <Position x="661" y="20" />
+                  <Position x="661" y="68" />
                 </Shape>
               </Shapes>
             </DiagramLayout>
@@ -1434,40 +1066,12 @@
               <Name>Day Number</Name>
             </AttributeRelationship>
             <AttributeRelationship>
-              <AttributeID>Day</AttributeID>
-              <Name>Day</Name>
-            </AttributeRelationship>
-            <AttributeRelationship>
               <AttributeID>Month</AttributeID>
               <Name>Month</Name>
             </AttributeRelationship>
             <AttributeRelationship>
-              <AttributeID>Short Month</AttributeID>
-              <Name>Short Month</Name>
-            </AttributeRelationship>
-            <AttributeRelationship>
-              <AttributeID>Calendar Month Label</AttributeID>
-              <Name>Calendar Month Label</Name>
-            </AttributeRelationship>
-            <AttributeRelationship>
-              <AttributeID>Calendar Year Label</AttributeID>
-              <Name>Calendar Year Label</Name>
-            </AttributeRelationship>
-            <AttributeRelationship>
               <AttributeID>Fiscal Month Number</AttributeID>
               <Name>Fiscal Month Number</Name>
-            </AttributeRelationship>
-            <AttributeRelationship>
-              <AttributeID>Fiscal Month Label</AttributeID>
-              <Name>Fiscal Month Label</Name>
-            </AttributeRelationship>
-            <AttributeRelationship>
-              <AttributeID>Fiscal Year</AttributeID>
-              <Name>Fiscal Year</Name>
-            </AttributeRelationship>
-            <AttributeRelationship>
-              <AttributeID>Fiscal Year Label</AttributeID>
-              <Name>Fiscal Year Label</Name>
             </AttributeRelationship>
             <AttributeRelationship>
               <AttributeID>ISO Week Number</AttributeID>
@@ -1505,23 +1109,7 @@
             </AttributeRelationship>
           </AttributeRelationships>
           <OrderBy>Key</OrderBy>
-          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-        </Attribute>
-        <Attribute>
-          <ID>Day</ID>
-          <Name>Day</Name>
-          <KeyColumns>
-            <KeyColumn>
-              <DataType>WChar</DataType>
-              <DataSize>10</DataSize>
-              <Source xsi:type="ColumnBinding">
-                <TableID>olap_vDimDate</TableID>
-                <ColumnID>Day</ColumnID>
-              </Source>
-            </KeyColumn>
-          </KeyColumns>
-          <OrderBy>Key</OrderBy>
+          <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
           <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
           <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
         </Attribute>
@@ -1539,23 +1127,7 @@
             </KeyColumn>
           </KeyColumns>
           <OrderBy>Key</OrderBy>
-          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-        </Attribute>
-        <Attribute>
-          <ID>Short Month</ID>
-          <Name>Short Month</Name>
-          <KeyColumns>
-            <KeyColumn>
-              <DataType>WChar</DataType>
-              <DataSize>3</DataSize>
-              <Source xsi:type="ColumnBinding">
-                <TableID>olap_vDimDate</TableID>
-                <ColumnID>Short_x0020_Month</ColumnID>
-              </Source>
-            </KeyColumn>
-          </KeyColumns>
-          <OrderBy>Key</OrderBy>
+          <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
           <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
           <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
         </Attribute>
@@ -1586,23 +1158,7 @@
             </AttributeRelationship>
           </AttributeRelationships>
           <OrderBy>Key</OrderBy>
-          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-        </Attribute>
-        <Attribute>
-          <ID>Calendar Month Label</ID>
-          <Name>Calendar Month Label</Name>
-          <KeyColumns>
-            <KeyColumn>
-              <DataType>WChar</DataType>
-              <DataSize>20</DataSize>
-              <Source xsi:type="ColumnBinding">
-                <TableID>olap_vDimDate</TableID>
-                <ColumnID>Calendar_x0020_Month_x0020_Label</ColumnID>
-              </Source>
-            </KeyColumn>
-          </KeyColumns>
-          <OrderBy>Key</OrderBy>
+          <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
           <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
           <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
         </Attribute>
@@ -1627,23 +1183,7 @@
             </Source>
           </NameColumn>
           <OrderBy>Key</OrderBy>
-          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-        </Attribute>
-        <Attribute>
-          <ID>Calendar Year Label</ID>
-          <Name>Calendar Year Label</Name>
-          <KeyColumns>
-            <KeyColumn>
-              <DataType>WChar</DataType>
-              <DataSize>10</DataSize>
-              <Source xsi:type="ColumnBinding">
-                <TableID>olap_vDimDate</TableID>
-                <ColumnID>Calendar_x0020_Year_x0020_Label</ColumnID>
-              </Source>
-            </KeyColumn>
-          </KeyColumns>
-          <OrderBy>Key</OrderBy>
+          <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
           <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
           <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
         </Attribute>
@@ -1659,24 +1199,22 @@
               </Source>
             </KeyColumn>
           </KeyColumns>
+          <NameColumn>
+            <DataType>WChar</DataType>
+            <DataSize>10</DataSize>
+            <Source xsi:type="ColumnBinding">
+              <TableID>olap_vDimDate</TableID>
+              <ColumnID>Month</ColumnID>
+            </Source>
+          </NameColumn>
+          <AttributeRelationships>
+            <AttributeRelationship>
+              <AttributeID>Fiscal Year</AttributeID>
+              <Name>Fiscal Year</Name>
+            </AttributeRelationship>
+          </AttributeRelationships>
           <OrderBy>Key</OrderBy>
-          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-        </Attribute>
-        <Attribute>
-          <ID>Fiscal Month Label</ID>
-          <Name>Fiscal Month Label</Name>
-          <KeyColumns>
-            <KeyColumn>
-              <DataType>WChar</DataType>
-              <DataSize>20</DataSize>
-              <Source xsi:type="ColumnBinding">
-                <TableID>olap_vDimDate</TableID>
-                <ColumnID>Fiscal_x0020_Month_x0020_Label</ColumnID>
-              </Source>
-            </KeyColumn>
-          </KeyColumns>
-          <OrderBy>Key</OrderBy>
+          <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
           <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
           <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
         </Attribute>
@@ -1693,23 +1231,7 @@
             </KeyColumn>
           </KeyColumns>
           <OrderBy>Key</OrderBy>
-          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-        </Attribute>
-        <Attribute>
-          <ID>Fiscal Year Label</ID>
-          <Name>Fiscal Year Label</Name>
-          <KeyColumns>
-            <KeyColumn>
-              <DataType>WChar</DataType>
-              <DataSize>10</DataSize>
-              <Source xsi:type="ColumnBinding">
-                <TableID>olap_vDimDate</TableID>
-                <ColumnID>Fiscal_x0020_Year_x0020_Label</ColumnID>
-              </Source>
-            </KeyColumn>
-          </KeyColumns>
-          <OrderBy>Key</OrderBy>
+          <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
           <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
           <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
         </Attribute>
@@ -1752,6 +1274,22 @@
             </Level>
           </Levels>
         </Hierarchy>
+        <Hierarchy>
+          <ID>Hierarchy 1</ID>
+          <Name>Hierarchy 1</Name>
+          <Levels>
+            <Level>
+              <ID>Fiscal Year</ID>
+              <Name>Fiscal Year</Name>
+              <SourceAttributeID>Fiscal Year</SourceAttributeID>
+            </Level>
+            <Level>
+              <ID>Fiscal Month Number</ID>
+              <Name>Fiscal Month Number</Name>
+              <SourceAttributeID>Fiscal Month Number</SourceAttributeID>
+            </Level>
+          </Levels>
+        </Hierarchy>
       </Hierarchies>
       <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
     </Dimension>
@@ -1765,7 +1303,7 @@
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
           <Value>
             <dds xmlns="">
-              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1396" scrolltop="-2567" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="6456" y="10134" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1396" scrolltop="-2567" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="6456" y="10134" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
                 <font>
                   <ddsxmlobjectstreamwrapper binary="01ee0000900144420100065461686f6d61" />
                 </font>
@@ -1776,7 +1314,7 @@
               <layoutmanager>
                 <ddsxmlobj />
               </layoutmanager>
-              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="vDimSupplier" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3625" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="vDimSupplier" left="20" top="0" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="3625" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                 <control>
                   <ddsxmlobjectstreaminitwrapper binary="000c0000290e000088130000" />
                 </control>
@@ -1862,10 +1400,6 @@
               <Name>WWI Supplier ID</Name>
             </AttributeRelationship>
             <AttributeRelationship>
-              <AttributeID>Supplier</AttributeID>
-              <Name>Supplier</Name>
-            </AttributeRelationship>
-            <AttributeRelationship>
               <AttributeID>Category</AttributeID>
               <Name>Category</Name>
             </AttributeRelationship>
@@ -1885,18 +1419,6 @@
               <AttributeID>Postal Code</AttributeID>
               <Name>Postal Code</Name>
             </AttributeRelationship>
-            <AttributeRelationship>
-              <AttributeID>Valid From</AttributeID>
-              <Name>Valid From</Name>
-            </AttributeRelationship>
-            <AttributeRelationship>
-              <AttributeID>Valid To</AttributeID>
-              <Name>Valid To</Name>
-            </AttributeRelationship>
-            <AttributeRelationship>
-              <AttributeID>Lineage Key</AttributeID>
-              <Name>Lineage Key</Name>
-            </AttributeRelationship>
           </AttributeRelationships>
           <OrderBy>Key</OrderBy>
           <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
@@ -1911,23 +1433,6 @@
               <Source xsi:type="ColumnBinding">
                 <TableID>olap_vDimSupplier</TableID>
                 <ColumnID>WWI_x0020_Supplier_x0020_ID</ColumnID>
-              </Source>
-            </KeyColumn>
-          </KeyColumns>
-          <OrderBy>Key</OrderBy>
-          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-        </Attribute>
-        <Attribute>
-          <ID>Supplier</ID>
-          <Name>Supplier</Name>
-          <KeyColumns>
-            <KeyColumn>
-              <DataType>WChar</DataType>
-              <DataSize>100</DataSize>
-              <Source xsi:type="ColumnBinding">
-                <TableID>olap_vDimSupplier</TableID>
-                <ColumnID>Supplier</ColumnID>
               </Source>
             </KeyColumn>
           </KeyColumns>
@@ -2019,54 +1524,6 @@
           <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
           <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
         </Attribute>
-        <Attribute>
-          <ID>Valid From</ID>
-          <Name>Valid From</Name>
-          <KeyColumns>
-            <KeyColumn>
-              <DataType>Date</DataType>
-              <Source xsi:type="ColumnBinding">
-                <TableID>olap_vDimSupplier</TableID>
-                <ColumnID>Valid_x0020_From</ColumnID>
-              </Source>
-            </KeyColumn>
-          </KeyColumns>
-          <OrderBy>Key</OrderBy>
-          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-        </Attribute>
-        <Attribute>
-          <ID>Valid To</ID>
-          <Name>Valid To</Name>
-          <KeyColumns>
-            <KeyColumn>
-              <DataType>Date</DataType>
-              <Source xsi:type="ColumnBinding">
-                <TableID>olap_vDimSupplier</TableID>
-                <ColumnID>Valid_x0020_To</ColumnID>
-              </Source>
-            </KeyColumn>
-          </KeyColumns>
-          <OrderBy>Key</OrderBy>
-          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-        </Attribute>
-        <Attribute>
-          <ID>Lineage Key</ID>
-          <Name>Lineage Key</Name>
-          <KeyColumns>
-            <KeyColumn>
-              <DataType>Integer</DataType>
-              <Source xsi:type="ColumnBinding">
-                <TableID>olap_vDimSupplier</TableID>
-                <ColumnID>Lineage_x0020_Key</ColumnID>
-              </Source>
-            </KeyColumn>
-          </KeyColumns>
-          <OrderBy>Key</OrderBy>
-          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-        </Attribute>
       </Attributes>
       <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
     </Dimension>
@@ -2080,7 +1537,7 @@
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
           <Value>
             <dds xmlns="">
-              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-986" scrolltop="-3281" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="6456" y="10134" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-986" scrolltop="-3281" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="6456" y="10134" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
                 <font>
                   <ddsxmlobjectstreamwrapper binary="01ee0000900144420100065461686f6d61" />
                 </font>
@@ -2091,7 +1548,7 @@
               <layoutmanager>
                 <ddsxmlobj />
               </layoutmanager>
-              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="vPaymentMethod" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="4445" height="3572" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="vPaymentMethod" left="20" top="0" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="4445" height="3572" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                 <control>
                   <ddsxmlobjectstreaminitwrapper binary="000c00005d110000f40d0000" />
                 </control>
@@ -2178,18 +1635,6 @@
               <AttributeID>WWI Payment Method ID</AttributeID>
               <Name>WWI Payment Method ID</Name>
             </AttributeRelationship>
-            <AttributeRelationship>
-              <AttributeID>Valid From</AttributeID>
-              <Name>Valid From</Name>
-            </AttributeRelationship>
-            <AttributeRelationship>
-              <AttributeID>Valid To</AttributeID>
-              <Name>Valid To</Name>
-            </AttributeRelationship>
-            <AttributeRelationship>
-              <AttributeID>Lineage Key</AttributeID>
-              <Name>Lineage Key</Name>
-            </AttributeRelationship>
           </AttributeRelationships>
           <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
           <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
@@ -2210,54 +1655,6 @@
           <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
           <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
         </Attribute>
-        <Attribute>
-          <ID>Valid From</ID>
-          <Name>Valid From</Name>
-          <KeyColumns>
-            <KeyColumn>
-              <DataType>Date</DataType>
-              <Source xsi:type="ColumnBinding">
-                <TableID>olap_vPaymentMethod</TableID>
-                <ColumnID>Valid_x0020_From</ColumnID>
-              </Source>
-            </KeyColumn>
-          </KeyColumns>
-          <OrderBy>Key</OrderBy>
-          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-        </Attribute>
-        <Attribute>
-          <ID>Valid To</ID>
-          <Name>Valid To</Name>
-          <KeyColumns>
-            <KeyColumn>
-              <DataType>Date</DataType>
-              <Source xsi:type="ColumnBinding">
-                <TableID>olap_vPaymentMethod</TableID>
-                <ColumnID>Valid_x0020_To</ColumnID>
-              </Source>
-            </KeyColumn>
-          </KeyColumns>
-          <OrderBy>Key</OrderBy>
-          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-        </Attribute>
-        <Attribute>
-          <ID>Lineage Key</ID>
-          <Name>Lineage Key</Name>
-          <KeyColumns>
-            <KeyColumn>
-              <DataType>Integer</DataType>
-              <Source xsi:type="ColumnBinding">
-                <TableID>olap_vPaymentMethod</TableID>
-                <ColumnID>Lineage_x0020_Key</ColumnID>
-              </Source>
-            </KeyColumn>
-          </KeyColumns>
-          <OrderBy>Key</OrderBy>
-          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-        </Attribute>
       </Attributes>
       <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
     </Dimension>
@@ -2269,6 +1666,32 @@
       <Annotations>
         <Annotation>
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+          <Value>
+            <dds xmlns="">
+              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-946" scrolltop="-3281" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="6456" y="10134" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                <font>
+                  <ddsxmlobjectstreamwrapper binary="01ee0000900144420100065461686f6d61" />
+                </font>
+                <mouseicon>
+                  <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+                </mouseicon>
+              </diagram>
+              <layoutmanager>
+                <ddsxmlobj />
+              </layoutmanager>
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="vTransactionType" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="4524" height="3572" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <control>
+                  <ddsxmlobjectstreaminitwrapper binary="000c0000ac110000f40d0000" />
+                </control>
+                <layoutobject>
+                  <ddsxmlobj>
+                    <property name="LogicalObject" value="olap_vTransactionType" vartype="8" />
+                  </ddsxmlobj>
+                </layoutobject>
+                <shape groupshapeid="0" groupnode="0" />
+              </ddscontrol>
+            </dds>
+          </Value>
         </Annotation>
         <Annotation>
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
@@ -2284,15 +1707,15 @@
         </Annotation>
         <Annotation>
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
-          <Value>0</Value>
+          <Value>-946</Value>
         </Annotation>
         <Annotation>
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-          <Value>0</Value>
+          <Value>-3281</Value>
         </Annotation>
         <Annotation>
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
-          <Value>0</Value>
+          <Value>20</Value>
         </Annotation>
         <Annotation>
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
@@ -2341,18 +1764,6 @@
               <AttributeID>WWI Transaction Type ID</AttributeID>
               <Name>WWI Transaction Type ID</Name>
             </AttributeRelationship>
-            <AttributeRelationship>
-              <AttributeID>Valid From</AttributeID>
-              <Name>Valid From</Name>
-            </AttributeRelationship>
-            <AttributeRelationship>
-              <AttributeID>Valid To</AttributeID>
-              <Name>Valid To</Name>
-            </AttributeRelationship>
-            <AttributeRelationship>
-              <AttributeID>Lineage Key</AttributeID>
-              <Name>Lineage Key</Name>
-            </AttributeRelationship>
           </AttributeRelationships>
           <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
           <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
@@ -2366,54 +1777,6 @@
               <Source xsi:type="ColumnBinding">
                 <TableID>olap_vTransactionType</TableID>
                 <ColumnID>WWI_x0020_Transaction_x0020_Type_x0020_ID</ColumnID>
-              </Source>
-            </KeyColumn>
-          </KeyColumns>
-          <OrderBy>Key</OrderBy>
-          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-        </Attribute>
-        <Attribute>
-          <ID>Valid From</ID>
-          <Name>Valid From</Name>
-          <KeyColumns>
-            <KeyColumn>
-              <DataType>Date</DataType>
-              <Source xsi:type="ColumnBinding">
-                <TableID>olap_vTransactionType</TableID>
-                <ColumnID>Valid_x0020_From</ColumnID>
-              </Source>
-            </KeyColumn>
-          </KeyColumns>
-          <OrderBy>Key</OrderBy>
-          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-        </Attribute>
-        <Attribute>
-          <ID>Valid To</ID>
-          <Name>Valid To</Name>
-          <KeyColumns>
-            <KeyColumn>
-              <DataType>Date</DataType>
-              <Source xsi:type="ColumnBinding">
-                <TableID>olap_vTransactionType</TableID>
-                <ColumnID>Valid_x0020_To</ColumnID>
-              </Source>
-            </KeyColumn>
-          </KeyColumns>
-          <OrderBy>Key</OrderBy>
-          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-        </Attribute>
-        <Attribute>
-          <ID>Lineage Key</ID>
-          <Name>Lineage Key</Name>
-          <KeyColumns>
-            <KeyColumn>
-              <DataType>Integer</DataType>
-              <Source xsi:type="ColumnBinding">
-                <TableID>olap_vTransactionType</TableID>
-                <ColumnID>Lineage_x0020_Key</ColumnID>
               </Source>
             </KeyColumn>
           </KeyColumns>
@@ -2436,7 +1799,7 @@
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
           <Value>
             <dds xmlns="">
-              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="76" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-9302" scrolltop="12524" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="38" x="16484" y="10134" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="76" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-9302" scrolltop="12524" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="38" x="15478" y="10134" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
                 <font>
                   <ddsxmlobjectstreamwrapper binary="01ee0000900144420100065461686f6d61" />
                 </font>
@@ -2971,12 +2334,6 @@
               <AttributeID>City Key</AttributeID>
             </Attribute>
             <Attribute>
-              <AttributeID>WWI City ID</AttributeID>
-            </Attribute>
-            <Attribute>
-              <AttributeID>City</AttributeID>
-            </Attribute>
-            <Attribute>
               <AttributeID>State Province</AttributeID>
             </Attribute>
             <Attribute>
@@ -2984,31 +2341,6 @@
             </Attribute>
             <Attribute>
               <AttributeID>Continent</AttributeID>
-            </Attribute>
-            <Attribute>
-              <AttributeID>Sales Territory</AttributeID>
-            </Attribute>
-            <Attribute>
-              <AttributeID>Region</AttributeID>
-            </Attribute>
-            <Attribute>
-              <AttributeID>Subregion</AttributeID>
-            </Attribute>
-            <Attribute>
-              <AttributeID>Location</AttributeID>
-              <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
-            </Attribute>
-            <Attribute>
-              <AttributeID>Latest Recorded Population</AttributeID>
-            </Attribute>
-            <Attribute>
-              <AttributeID>Valid From</AttributeID>
-            </Attribute>
-            <Attribute>
-              <AttributeID>Valid To</AttributeID>
-            </Attribute>
-            <Attribute>
-              <AttributeID>Lineage Key</AttributeID>
             </Attribute>
           </Attributes>
           <Hierarchies>
@@ -3035,12 +2367,6 @@
               <AttributeID>WWI Customer ID</AttributeID>
             </Attribute>
             <Attribute>
-              <AttributeID>Customer</AttributeID>
-            </Attribute>
-            <Attribute>
-              <AttributeID>Bill To Customer</AttributeID>
-            </Attribute>
-            <Attribute>
               <AttributeID>Category</AttributeID>
             </Attribute>
             <Attribute>
@@ -3051,15 +2377,6 @@
             </Attribute>
             <Attribute>
               <AttributeID>Postal Code</AttributeID>
-            </Attribute>
-            <Attribute>
-              <AttributeID>Valid From</AttributeID>
-            </Attribute>
-            <Attribute>
-              <AttributeID>Valid To</AttributeID>
-            </Attribute>
-            <Attribute>
-              <AttributeID>Lineage Key</AttributeID>
             </Attribute>
           </Attributes>
         </Dimension>
@@ -3081,9 +2398,6 @@
               <AttributeID>WWI Stock Item ID</AttributeID>
             </Attribute>
             <Attribute>
-              <AttributeID>Stock Item</AttributeID>
-            </Attribute>
-            <Attribute>
               <AttributeID>Color</AttributeID>
             </Attribute>
             <Attribute>
@@ -3094,9 +2408,6 @@
             </Attribute>
             <Attribute>
               <AttributeID>Brand</AttributeID>
-            </Attribute>
-            <Attribute>
-              <AttributeID>Size</AttributeID>
             </Attribute>
             <Attribute>
               <AttributeID>Lead Time Days</AttributeID>
@@ -3126,15 +2437,6 @@
               <AttributeID>Photo</AttributeID>
               <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
             </Attribute>
-            <Attribute>
-              <AttributeID>Valid From</AttributeID>
-            </Attribute>
-            <Attribute>
-              <AttributeID>Valid To</AttributeID>
-            </Attribute>
-            <Attribute>
-              <AttributeID>Lineage Key</AttributeID>
-            </Attribute>
           </Attributes>
         </Dimension>
         <Dimension>
@@ -3155,37 +2457,19 @@
               <AttributeID>Day Number</AttributeID>
             </Attribute>
             <Attribute>
-              <AttributeID>Day</AttributeID>
-            </Attribute>
-            <Attribute>
               <AttributeID>Month</AttributeID>
-            </Attribute>
-            <Attribute>
-              <AttributeID>Short Month</AttributeID>
             </Attribute>
             <Attribute>
               <AttributeID>Calendar Month Number</AttributeID>
             </Attribute>
             <Attribute>
-              <AttributeID>Calendar Month Label</AttributeID>
-            </Attribute>
-            <Attribute>
               <AttributeID>Calendar Year</AttributeID>
-            </Attribute>
-            <Attribute>
-              <AttributeID>Calendar Year Label</AttributeID>
             </Attribute>
             <Attribute>
               <AttributeID>Fiscal Month Number</AttributeID>
             </Attribute>
             <Attribute>
-              <AttributeID>Fiscal Month Label</AttributeID>
-            </Attribute>
-            <Attribute>
               <AttributeID>Fiscal Year</AttributeID>
-            </Attribute>
-            <Attribute>
-              <AttributeID>Fiscal Year Label</AttributeID>
             </Attribute>
             <Attribute>
               <AttributeID>ISO Week Number</AttributeID>
@@ -3194,6 +2478,9 @@
           <Hierarchies>
             <Hierarchy>
               <HierarchyID>Hierarchy</HierarchyID>
+            </Hierarchy>
+            <Hierarchy>
+              <HierarchyID>Hierarchy 1</HierarchyID>
             </Hierarchy>
           </Hierarchies>
         </Dimension>
@@ -3215,9 +2502,6 @@
               <AttributeID>WWI Supplier ID</AttributeID>
             </Attribute>
             <Attribute>
-              <AttributeID>Supplier</AttributeID>
-            </Attribute>
-            <Attribute>
               <AttributeID>Category</AttributeID>
             </Attribute>
             <Attribute>
@@ -3232,20 +2516,17 @@
             <Attribute>
               <AttributeID>Postal Code</AttributeID>
             </Attribute>
-            <Attribute>
-              <AttributeID>Valid From</AttributeID>
-            </Attribute>
-            <Attribute>
-              <AttributeID>Valid To</AttributeID>
-            </Attribute>
-            <Attribute>
-              <AttributeID>Lineage Key</AttributeID>
-            </Attribute>
           </Attributes>
         </Dimension>
         <Dimension>
           <ID>DimPaymentMethod</ID>
           <Name>DimPaymentMethod</Name>
+          <Translations>
+            <Translation>
+              <Language>1045</Language>
+              <Caption>Metoda płatności</Caption>
+            </Translation>
+          </Translations>
           <DimensionID>v Payment Method</DimensionID>
           <Attributes>
             <Attribute>
@@ -3254,20 +2535,17 @@
             <Attribute>
               <AttributeID>WWI Payment Method ID</AttributeID>
             </Attribute>
-            <Attribute>
-              <AttributeID>Valid From</AttributeID>
-            </Attribute>
-            <Attribute>
-              <AttributeID>Valid To</AttributeID>
-            </Attribute>
-            <Attribute>
-              <AttributeID>Lineage Key</AttributeID>
-            </Attribute>
           </Attributes>
         </Dimension>
         <Dimension>
           <ID>DimTransactionType</ID>
           <Name>DimTransactionType</Name>
+          <Translations>
+            <Translation>
+              <Language>1045</Language>
+              <Caption>Typ transakcji</Caption>
+            </Translation>
+          </Translations>
           <DimensionID>DimTransactionType</DimensionID>
           <Attributes>
             <Attribute>
@@ -3276,18 +2554,490 @@
             <Attribute>
               <AttributeID>WWI Transaction Type ID</AttributeID>
             </Attribute>
-            <Attribute>
-              <AttributeID>Valid From</AttributeID>
-            </Attribute>
-            <Attribute>
-              <AttributeID>Valid To</AttributeID>
-            </Attribute>
-            <Attribute>
-              <AttributeID>Lineage Key</AttributeID>
-            </Attribute>
           </Attributes>
         </Dimension>
       </Dimensions>
+      <Perspectives>
+        <Perspective>
+          <ID>Perspective</ID>
+          <Name>PrsOrder</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <Translations>
+            <Translation>
+              <Language>1045</Language>
+              <Caption>Zamówienie</Caption>
+            </Translation>
+          </Translations>
+          <Dimensions>
+            <Dimension>
+              <CubeDimensionID>DimCity</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>City Key</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>State Province</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Country</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Continent</AttributeID>
+                </Attribute>
+              </Attributes>
+              <Hierarchies>
+                <Hierarchy>
+                  <HierarchyID>Hierarchy</HierarchyID>
+                </Hierarchy>
+              </Hierarchies>
+            </Dimension>
+            <Dimension>
+              <CubeDimensionID>DimCustomer</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Customer Key</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>WWI Customer ID</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Category</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Buying Group</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Primary Contact</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Postal Code</AttributeID>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+            <Dimension>
+              <CubeDimensionID>DimStockItem</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Stock Item Key</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>WWI Stock Item ID</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Color</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Selling Package</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Buying Package</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Brand</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Lead Time Days</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Quantity Per Outer</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Is Chiller Stock</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Barcode</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Tax Rate</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Unit Price</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Recommended Retail Price</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Typical Weight Per Unit</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Photo</AttributeID>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+            <Dimension>
+              <CubeDimensionID>DimDate</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Date</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Day Number</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Month</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Calendar Month Number</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Calendar Year</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Fiscal Month Number</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Fiscal Year</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>ISO Week Number</AttributeID>
+                </Attribute>
+              </Attributes>
+              <Hierarchies>
+                <Hierarchy>
+                  <HierarchyID>Hierarchy</HierarchyID>
+                </Hierarchy>
+                <Hierarchy>
+                  <HierarchyID>Hierarchy 1</HierarchyID>
+                </Hierarchy>
+              </Hierarchies>
+            </Dimension>
+          </Dimensions>
+          <MeasureGroups>
+            <MeasureGroup>
+              <MeasureGroupID>v Fact Order</MeasureGroupID>
+              <Measures>
+                <Measure>
+                  <MeasureID>Quantity</MeasureID>
+                </Measure>
+                <Measure>
+                  <MeasureID>Unit Price</MeasureID>
+                </Measure>
+                <Measure>
+                  <MeasureID>Tax Rate</MeasureID>
+                </Measure>
+                <Measure>
+                  <MeasureID>Total Excluding Tax</MeasureID>
+                </Measure>
+                <Measure>
+                  <MeasureID>Tax Amount</MeasureID>
+                </Measure>
+                <Measure>
+                  <MeasureID>Total Including Tax</MeasureID>
+                </Measure>
+                <Measure>
+                  <MeasureID>v Fact Order Count</MeasureID>
+                </Measure>
+              </Measures>
+            </MeasureGroup>
+          </MeasureGroups>
+        </Perspective>
+        <Perspective>
+          <ID>Perspective 1</ID>
+          <Name>PrsPurchase</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <Translations>
+            <Translation>
+              <Language>1045</Language>
+              <Caption>Zakup</Caption>
+            </Translation>
+          </Translations>
+          <Dimensions>
+            <Dimension>
+              <CubeDimensionID>DimStockItem</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Stock Item Key</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>WWI Stock Item ID</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Color</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Selling Package</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Buying Package</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Brand</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Lead Time Days</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Quantity Per Outer</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Is Chiller Stock</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Barcode</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Tax Rate</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Unit Price</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Recommended Retail Price</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Typical Weight Per Unit</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Photo</AttributeID>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+            <Dimension>
+              <CubeDimensionID>DimDate</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Date</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Day Number</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Month</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Calendar Month Number</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Calendar Year</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Fiscal Month Number</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Fiscal Year</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>ISO Week Number</AttributeID>
+                </Attribute>
+              </Attributes>
+              <Hierarchies>
+                <Hierarchy>
+                  <HierarchyID>Hierarchy</HierarchyID>
+                </Hierarchy>
+                <Hierarchy>
+                  <HierarchyID>Hierarchy 1</HierarchyID>
+                </Hierarchy>
+              </Hierarchies>
+            </Dimension>
+            <Dimension>
+              <CubeDimensionID>DimSupplier</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Supplier Key</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>WWI Supplier ID</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Category</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Primary Contact</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Supplier Reference</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Payment Days</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Postal Code</AttributeID>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+          </Dimensions>
+          <MeasureGroups>
+            <MeasureGroup>
+              <MeasureGroupID>v Fact Purchase</MeasureGroupID>
+              <Measures>
+                <Measure>
+                  <MeasureID>WWI Purchase Order ID</MeasureID>
+                </Measure>
+                <Measure>
+                  <MeasureID>Ordered Outers</MeasureID>
+                </Measure>
+                <Measure>
+                  <MeasureID>Ordered Quantity</MeasureID>
+                </Measure>
+                <Measure>
+                  <MeasureID>Received Outers</MeasureID>
+                </Measure>
+                <Measure>
+                  <MeasureID>v Fact Purchase Count</MeasureID>
+                </Measure>
+              </Measures>
+            </MeasureGroup>
+          </MeasureGroups>
+        </Perspective>
+        <Perspective>
+          <ID>Perspective 2</ID>
+          <Name>PrsTransaction</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <Translations>
+            <Translation>
+              <Language>1045</Language>
+              <Caption>Transakcja</Caption>
+            </Translation>
+          </Translations>
+          <Dimensions>
+            <Dimension>
+              <CubeDimensionID>DimDate</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Date</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Day Number</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Month</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Calendar Month Number</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Calendar Year</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Fiscal Month Number</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Fiscal Year</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>ISO Week Number</AttributeID>
+                </Attribute>
+              </Attributes>
+              <Hierarchies>
+                <Hierarchy>
+                  <HierarchyID>Hierarchy</HierarchyID>
+                </Hierarchy>
+                <Hierarchy>
+                  <HierarchyID>Hierarchy 1</HierarchyID>
+                </Hierarchy>
+              </Hierarchies>
+            </Dimension>
+            <Dimension>
+              <CubeDimensionID>DimCustomer</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Customer Key</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>WWI Customer ID</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Category</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Buying Group</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Primary Contact</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Postal Code</AttributeID>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+            <Dimension>
+              <CubeDimensionID>DimSupplier</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Supplier Key</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>WWI Supplier ID</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Category</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Primary Contact</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Supplier Reference</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Payment Days</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Postal Code</AttributeID>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+            <Dimension>
+              <CubeDimensionID>DimPaymentMethod</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Payment Method Key</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>WWI Payment Method ID</AttributeID>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+            <Dimension>
+              <CubeDimensionID>DimTransactionType</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Transaction Type Key</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>WWI Transaction Type ID</AttributeID>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+          </Dimensions>
+          <MeasureGroups>
+            <MeasureGroup>
+              <MeasureGroupID>v Fact Transaction</MeasureGroupID>
+              <Measures>
+                <Measure>
+                  <MeasureID>WWI Customer Transaction ID</MeasureID>
+                </Measure>
+                <Measure>
+                  <MeasureID>WWI Supplier Transaction ID</MeasureID>
+                </Measure>
+                <Measure>
+                  <MeasureID>WWI Invoice ID</MeasureID>
+                </Measure>
+                <Measure>
+                  <MeasureID>WWI Purchase Order ID - v Fact Transaction</MeasureID>
+                </Measure>
+                <Measure>
+                  <MeasureID>Total Excluding Tax - v Fact Transaction</MeasureID>
+                </Measure>
+                <Measure>
+                  <MeasureID>Tax Amount - v Fact Transaction</MeasureID>
+                </Measure>
+                <Measure>
+                  <MeasureID>Total Including Tax - v Fact Transaction</MeasureID>
+                </Measure>
+                <Measure>
+                  <MeasureID>Outstanding Balance</MeasureID>
+                </Measure>
+                <Measure>
+                  <MeasureID>v Fact Transaction Count</MeasureID>
+                </Measure>
+              </Measures>
+            </MeasureGroup>
+          </MeasureGroups>
+        </Perspective>
+      </Perspectives>
       <MeasureGroups>
         <MeasureGroup>
           <ID>v Fact Order</ID>
@@ -3351,7 +3101,7 @@
             </Measure>
             <Measure>
               <ID>Total Excluding Tax</ID>
-              <Name>Total Excluding Tax</Name>
+              <Name>Total Excluding Tax - FactOrder</Name>
               <Source>
                 <DataType>Double</DataType>
                 <Source xsi:type="ColumnBinding">
@@ -3359,6 +3109,12 @@
                   <ColumnID>Total_x0020_Excluding_x0020_Tax</ColumnID>
                 </Source>
               </Source>
+              <Translations>
+                <Translation>
+                  <Language>1045</Language>
+                  <Caption>Zamówienie - razem bez podatku</Caption>
+                </Translation>
+              </Translations>
             </Measure>
             <Measure>
               <ID>Tax Amount</ID>
@@ -3371,10 +3127,16 @@
                 </Source>
               </Source>
               <FormatString>#,##0.00;-#,##0.00</FormatString>
+              <Translations>
+                <Translation>
+                  <Language>1045</Language>
+                  <Caption>Podatek</Caption>
+                </Translation>
+              </Translations>
             </Measure>
             <Measure>
               <ID>Total Including Tax</ID>
-              <Name>Total Including Tax</Name>
+              <Name>Total Including Tax - FactOrder</Name>
               <Source>
                 <DataType>Double</DataType>
                 <Source xsi:type="ColumnBinding">
@@ -3382,21 +3144,16 @@
                   <ColumnID>Total_x0020_Including_x0020_Tax</ColumnID>
                 </Source>
               </Source>
-            </Measure>
-            <Measure>
-              <ID>Lineage Key</ID>
-              <Name>Lineage Key</Name>
-              <Source>
-                <DataType>Integer</DataType>
-                <Source xsi:type="ColumnBinding">
-                  <TableID>olap_vFactOrder</TableID>
-                  <ColumnID>Lineage_x0020_Key</ColumnID>
-                </Source>
-              </Source>
+              <Translations>
+                <Translation>
+                  <Language>1045</Language>
+                  <Caption>Zamówienie - razem z podatkiem</Caption>
+                </Translation>
+              </Translations>
             </Measure>
             <Measure>
               <ID>v Fact Order Count</ID>
-              <Name>v Fact Order Count</Name>
+              <Name>FactOrderCount</Name>
               <AggregateFunction>Count</AggregateFunction>
               <Source>
                 <DataType>Integer</DataType>
@@ -3573,19 +3330,8 @@
               </Source>
             </Measure>
             <Measure>
-              <ID>Lineage Key - v Fact Purchase</ID>
-              <Name>Lineage Key - v Fact Purchase</Name>
-              <Source>
-                <DataType>Integer</DataType>
-                <Source xsi:type="ColumnBinding">
-                  <TableID>olap_vFactPurchase</TableID>
-                  <ColumnID>Lineage_x0020_Key</ColumnID>
-                </Source>
-              </Source>
-            </Measure>
-            <Measure>
               <ID>v Fact Purchase Count</ID>
-              <Name>v Fact Purchase Count</Name>
+              <Name>FactPurchaseCount</Name>
               <AggregateFunction>Count</AggregateFunction>
               <Source>
                 <DataType>Integer</DataType>
@@ -3685,6 +3431,12 @@
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
+          <Translations>
+            <Translation>
+              <Language>1045</Language>
+              <Caption>Transakcja</Caption>
+            </Translation>
+          </Translations>
           <Measures>
             <Measure>
               <ID>WWI Customer Transaction ID</ID>
@@ -3696,6 +3448,12 @@
                   <ColumnID>WWI_x0020_Customer_x0020_Transaction_x0020_ID</ColumnID>
                 </Source>
               </Source>
+              <Translations>
+                <Translation>
+                  <Language>1045</Language>
+                  <Caption>ID transakcji klienta</Caption>
+                </Translation>
+              </Translations>
             </Measure>
             <Measure>
               <ID>WWI Supplier Transaction ID</ID>
@@ -3707,6 +3465,12 @@
                   <ColumnID>WWI_x0020_Supplier_x0020_Transaction_x0020_ID</ColumnID>
                 </Source>
               </Source>
+              <Translations>
+                <Translation>
+                  <Language>1045</Language>
+                  <Caption>ID transakcji dostawcy</Caption>
+                </Translation>
+              </Translations>
             </Measure>
             <Measure>
               <ID>WWI Invoice ID</ID>
@@ -3718,6 +3482,12 @@
                   <ColumnID>WWI_x0020_Invoice_x0020_ID</ColumnID>
                 </Source>
               </Source>
+              <Translations>
+                <Translation>
+                  <Language>1045</Language>
+                  <Caption>ID faktury</Caption>
+                </Translation>
+              </Translations>
             </Measure>
             <Measure>
               <ID>WWI Purchase Order ID - v Fact Transaction</ID>
@@ -3729,6 +3499,12 @@
                   <ColumnID>WWI_x0020_Purchase_x0020_Order_x0020_ID</ColumnID>
                 </Source>
               </Source>
+              <Translations>
+                <Translation>
+                  <Language>1045</Language>
+                  <Caption>ID zakupu</Caption>
+                </Translation>
+              </Translations>
             </Measure>
             <Measure>
               <ID>Total Excluding Tax - v Fact Transaction</ID>
@@ -3740,6 +3516,12 @@
                   <ColumnID>Total_x0020_Excluding_x0020_Tax</ColumnID>
                 </Source>
               </Source>
+              <Translations>
+                <Translation>
+                  <Language>1045</Language>
+                  <Caption>Transakcja - razem bez podatku</Caption>
+                </Translation>
+              </Translations>
             </Measure>
             <Measure>
               <ID>Tax Amount - v Fact Transaction</ID>
@@ -3751,6 +3533,12 @@
                   <ColumnID>Tax_x0020_Amount</ColumnID>
                 </Source>
               </Source>
+              <Translations>
+                <Translation>
+                  <Language>1045</Language>
+                  <Caption>Podatek - Transakcja</Caption>
+                </Translation>
+              </Translations>
             </Measure>
             <Measure>
               <ID>Total Including Tax - v Fact Transaction</ID>
@@ -3762,6 +3550,12 @@
                   <ColumnID>Total_x0020_Including_x0020_Tax</ColumnID>
                 </Source>
               </Source>
+              <Translations>
+                <Translation>
+                  <Language>1045</Language>
+                  <Caption>Transakcja - razem z podatkiem</Caption>
+                </Translation>
+              </Translations>
             </Measure>
             <Measure>
               <ID>Outstanding Balance</ID>
@@ -3775,19 +3569,8 @@
               </Source>
             </Measure>
             <Measure>
-              <ID>Lineage Key - v Fact Transaction</ID>
-              <Name>Lineage Key - v Fact Transaction</Name>
-              <Source>
-                <DataType>Integer</DataType>
-                <Source xsi:type="ColumnBinding">
-                  <TableID>olap_vFactTransaction</TableID>
-                  <ColumnID>Lineage_x0020_Key</ColumnID>
-                </Source>
-              </Source>
-            </Measure>
-            <Measure>
               <ID>v Fact Transaction Count</ID>
-              <Name>v Fact Transaction Count</Name>
+              <Name>FactTransactionCount</Name>
               <AggregateFunction>Count</AggregateFunction>
               <Source>
                 <DataType>Integer</DataType>
@@ -3796,6 +3579,12 @@
                   <TableID>olap_vFactTransaction</TableID>
                 </Source>
               </Source>
+              <Translations>
+                <Translation>
+                  <Language>1045</Language>
+                  <Caption>Transakcja - liczba wierszy</Caption>
+                </Translation>
+              </Translations>
             </Measure>
           </Measures>
           <StorageMode>Molap</StorageMode>
@@ -3962,7 +3751,7 @@
                 <Name>_ALL_TABLES_</Name>
                 <DiagramLayout>
                   <dds>
-                    <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="46" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-4347" scrolltop="-7121" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="17013" y="11456" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                    <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="46" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="4375" scrolltop="20815" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="17013" y="11456" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
                       <font>
                         <ddsxmlobjectstreamwrapper binary="01ee0000900144420100065461686f6d61" />
                       </font>
@@ -4106,7 +3895,7 @@
                         <point x="17715" y="7825" />
                       </connector>
                     </ddscontrol>
-                    <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="vFactPurchase" left="3453" top="0" logicalid="32" controlid="10" masterid="0" hint1="0" hint2="0" width="4833" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                    <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="vFactPurchase" left="3206" top="0" logicalid="32" controlid="10" masterid="0" hint1="0" hint2="0" width="4833" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                       <control>
                         <ddsxmlobjectstreaminitwrapper binary="000c0000e112000088130000" />
                       </control>
@@ -4117,7 +3906,7 @@
                       </layoutobject>
                       <shape groupshapeid="0" groupnode="0" />
                     </ddscontrol>
-                    <ddscontrol controlprogid="MSDDS.Polyline" left="6119" top="4700" logicalid="33" controlid="11" masterid="0" hint1="0" hint2="0" width="3344" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                    <ddscontrol controlprogid="MSDDS.Polyline" left="5872" top="4700" logicalid="33" controlid="11" masterid="0" hint1="0" hint2="0" width="3591" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                       <control>
                         <ddsxmlobj>
                           <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -4133,11 +3922,11 @@
                       <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="10" sourceattachpoint="8" destattachpoint="11" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
                         <point x="9063" y="7400" />
                         <point x="9063" y="6200" />
-                        <point x="6419" y="6200" />
-                        <point x="6419" y="5000" />
+                        <point x="6172" y="6200" />
+                        <point x="6172" y="5000" />
                       </connector>
                     </ddscontrol>
-                    <ddscontrol controlprogid="MSDDS.Polyline" left="7986" top="2101" logicalid="34" controlid="12" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                    <ddscontrol controlprogid="MSDDS.Polyline" left="7739" top="2101" logicalid="34" controlid="12" masterid="0" hint1="0" hint2="0" width="3247" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                       <control>
                         <ddsxmlobj>
                           <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -4152,7 +3941,7 @@
                       </layoutobject>
                       <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="10" sourceattachpoint="26" destattachpoint="27" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
                         <point x="10686" y="2500" />
-                        <point x="8286" y="2500" />
+                        <point x="8039" y="2500" />
                       </connector>
                     </ddscontrol>
                     <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="vDimSupplier" left="0" top="7400" logicalid="35" controlid="13" masterid="0" hint1="0" hint2="0" width="3987" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
@@ -4166,7 +3955,7 @@
                       </layoutobject>
                       <shape groupshapeid="0" groupnode="0" />
                     </ddscontrol>
-                    <ddscontrol controlprogid="MSDDS.Polyline" left="1594" top="4700" logicalid="36" controlid="14" masterid="0" hint1="0" hint2="0" width="3475" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                    <ddscontrol controlprogid="MSDDS.Polyline" left="1594" top="4700" logicalid="36" controlid="14" masterid="0" hint1="0" hint2="0" width="3228" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                       <control>
                         <ddsxmlobj>
                           <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="2" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -4182,8 +3971,8 @@
                       <connector lineroutestyle="MSDDS.Rectilinear" sourceid="13" destid="10" sourceattachpoint="6" destattachpoint="5" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
                         <point x="1993" y="7400" />
                         <point x="1993" y="6200" />
-                        <point x="4769" y="6200" />
-                        <point x="4769" y="5000" />
+                        <point x="4522" y="6200" />
+                        <point x="4522" y="5000" />
                       </connector>
                     </ddscontrol>
                     <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="vFactTransaction" left="10780" top="22430" logicalid="37" controlid="15" masterid="0" hint1="0" hint2="0" width="5751" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
@@ -4321,8 +4110,8 @@
 </DiagramLayout>
                 <ShowRelationshipNames>False</ShowRelationshipNames>
                 <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
-                <DiagramViewPortLeft>-4347</DiagramViewPortLeft>
-                <DiagramViewPortTop>-7121</DiagramViewPortTop>
+                <DiagramViewPortLeft>4375</DiagramViewPortLeft>
+                <DiagramViewPortTop>20815</DiagramViewPortTop>
                 <DiagramBoundingLeft>0</DiagramBoundingLeft>
                 <DiagramBoundingTop>0</DiagramBoundingTop>
                 <DiagramZoom>75</DiagramZoom>
@@ -4506,7 +4295,13 @@
                           </xs:restriction>
                         </xs:simpleType>
                       </xs:element>
-                      <xs:element name="Fiscal_x0020_Month_x0020_Number" msprop:design-time-name="0a03cf26-72c9-450e-8009-48470606d03e" msprop:DbColumnName="Fiscal Month Number" msprop:FriendlyName="Fiscal Month Number" type="xs:int" />
+                      <xs:element name="Fiscal_x0020_Month_x0020_Number" msprop:design-time-name="0a03cf26-72c9-450e-8009-48470606d03e" msprop:DbColumnName="Fiscal Month Number" msprop:FriendlyName="Fiscal Month Number">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="6" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
                       <xs:element name="Fiscal_x0020_Month_x0020_Label" msprop:design-time-name="2e5ebef5-266b-4f4f-a89d-52525472292e" msprop:DbColumnName="Fiscal Month Label" msprop:FriendlyName="Fiscal Month Label">
                         <xs:simpleType>
                           <xs:restriction base="xs:string">
