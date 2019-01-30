@@ -3098,6 +3098,12 @@
                   <ColumnID>Tax_x0020_Rate</ColumnID>
                 </Source>
               </Source>
+              <Translations>
+                <Translation>
+                  <Language>1045</Language>
+                  <Caption>Podatek [%]</Caption>
+                </Translation>
+              </Translations>
             </Measure>
             <Measure>
               <ID>Total Excluding Tax</ID>
@@ -3130,7 +3136,7 @@
               <Translations>
                 <Translation>
                   <Language>1045</Language>
-                  <Caption>Podatek</Caption>
+                  <Caption>Kwota podatku</Caption>
                 </Translation>
               </Translations>
             </Measure>
@@ -3536,7 +3542,7 @@
               <Translations>
                 <Translation>
                   <Language>1045</Language>
-                  <Caption>Podatek - Transakcja</Caption>
+                  <Caption>Kwota podatku - Transakcja</Caption>
                 </Translation>
               </Translations>
             </Measure>

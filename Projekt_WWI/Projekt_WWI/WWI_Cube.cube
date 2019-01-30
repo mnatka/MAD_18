@@ -1307,6 +1307,12 @@
               <ColumnID>Tax_x0020_Rate</ColumnID>
             </Source>
           </Source>
+          <Translations>
+            <Translation dwd:design-time-name="65e9f139-113a-4885-9fe8-35a10e9a70b7">
+              <Language>1045</Language>
+              <Caption>Podatek [%]</Caption>
+            </Translation>
+          </Translations>
         </Measure>
         <Measure dwd:design-time-name="2e094070-ce67-4d51-a872-b46a4030f077">
           <ID>Total Excluding Tax</ID>
@@ -1339,7 +1345,7 @@
           <Translations>
             <Translation dwd:design-time-name="c39700c5-91a4-4c7a-9b89-55b37cad5f8b">
               <Language>1045</Language>
-              <Caption>Podatek</Caption>
+              <Caption>Kwota podatku</Caption>
             </Translation>
           </Translations>
         </Measure>
@@ -1713,7 +1719,7 @@
           <Translations>
             <Translation dwd:design-time-name="53e1c1c7-b820-401f-9f84-ba2e8fd29398">
               <Language>1045</Language>
-              <Caption>Podatek - Transakcja</Caption>
+              <Caption>Kwota podatku - Transakcja</Caption>
             </Translation>
           </Translations>
         </Measure>
