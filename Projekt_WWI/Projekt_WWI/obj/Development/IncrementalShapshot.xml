@@ -82,14 +82,14 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>yZu0ykFYzwUZearVHgGc1yQDKls=30.01.2019 19:35:2117.01.2019 23:24:15no6zjDTZgbUYOouq6QFlQS3TFko=19.01.2019 13:51:4517.01.2019 23:24:15</TimeStamp>
+        <TimeStamp>RNYK//74EuC/HMrQRylrQ9OKDR0=03.02.2019 11:53:0217.01.2019 23:24:15no6zjDTZgbUYOouq6QFlQS3TFko=19.01.2019 13:51:4517.01.2019 23:24:15</TimeStamp>
         <ID>
           <String>Wide World Importers DW</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Role</Type>
-        <TimeStamp>1g1mgThf0k+zeMkDwC9qPRyK3u0=03.02.2019 10:03:3203.02.2019 10:00:26</TimeStamp>
+        <TimeStamp>1g1mgThf0k+zeMkDwC9qPRyK3u0=03.02.2019 11:24:4703.02.2019 10:00:26</TimeStamp>
         <ID>
           <String>Role</String>
         </ID>
@@ -104,7 +104,7 @@
     </ObjectSnapshots>
     <DatabaseSnapshot>
       <Type>Microsoft.AnalysisServices.Database</Type>
-      <TimeStamp>Np4h7qqF7sxDshPX4VBeQVBIj6A=03.02.2019 10:03:3212.01.2019 15:01:18</TimeStamp>
+      <TimeStamp>wGPzmhY8R/cXq7F4+rVT9oHm7L8=03.02.2019 11:24:4712.01.2019 15:01:18</TimeStamp>
       <ID>
         <String>Projekt_WWI</String>
       </ID>
@@ -113,5 +113,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2019-02-03T09:03:44.643333Z</LastDeployed>
+  <LastDeployed>2019-02-03T10:53:09.1Z</LastDeployed>
 </DeploymentSnapshot>

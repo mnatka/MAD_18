@@ -81,21 +81,11 @@
         <Annotation>
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
           <Value>
-            <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+            <DiagramLayout ZoomPercent="100" ViewPortX="11" ViewPortY="0" xmlns="">
               <Shapes NodeWidth="187">
                 <Shape Id="City Key" Expanded="false">
                   <Attributes>
                     <Attribute Id="City Key" />
-                    <Attribute Id="City" />
-                    <Attribute Id="Latest Recorded Population" />
-                    <Attribute Id="Lineage Key" />
-                    <Attribute Id="Location" />
-                    <Attribute Id="Region" />
-                    <Attribute Id="Sales Territory" />
-                    <Attribute Id="Subregion" />
-                    <Attribute Id="Valid From" />
-                    <Attribute Id="Valid To" />
-                    <Attribute Id="WWI City ID" />
                   </Attributes>
                   <Position x="20" y="20" />
                 </Shape>
@@ -3710,6 +3700,28 @@
       <Source>
         <DataSourceViewID>Wide World Importers DW</DataSourceViewID>
       </Source>
+      <MdxScripts>
+        <MdxScript>
+          <ID>MdxScript</ID>
+          <Name>MdxScript</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <Commands>
+            <Command>
+              <Text>/*
+The CALCULATE command controls the aggregation of leaf cells in the cube.
+If the CALCULATE command is deleted or modified, the data within the cube is affected.
+You should edit this command only if you manually specify how the cube is aggregated.
+*/
+CALCULATE; 
+CREATE MEMBER CURRENTCUBE.[Measures].TotalTax
+ AS [Measures].[Unit Price]*[Measures].[Quantity], 
+FORMAT_STRING = "# ##0,00;-# ##0,00", 
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'FactOrder'  ; </Text>
+            </Command>
+          </Commands>
+        </MdxScript>
+      </MdxScripts>
     </Cube>
   </Cubes>
   <DataSources>
@@ -4649,8 +4661,10 @@
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
       <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
       <RoleID>Role</RoleID>
+      <Process>true</Process>
       <ReadDefinition>Allowed</ReadDefinition>
       <Read>Allowed</Read>
+      <Administer>true</Administer>
     </DatabasePermission>
     <DatabasePermission>
       <ID>DatabasePermission 1</ID>
