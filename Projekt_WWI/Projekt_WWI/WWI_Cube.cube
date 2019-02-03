@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="76" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-9302" scrolltop="12524" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="38" x="15478" y="10134" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="76" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-9302" scrolltop="12524" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="38" x="15478" y="10610" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="01ee0000900144420100065461686f6d61" />
             </font>
@@ -1316,7 +1316,7 @@
         </Measure>
         <Measure dwd:design-time-name="2e094070-ce67-4d51-a872-b46a4030f077">
           <ID>Total Excluding Tax</ID>
-          <Name>Total Excluding Tax - FactOrder</Name>
+          <Name>Total Excluding Tax vFactOrder</Name>
           <Source dwd:design-time-name="5b73bd6e-5b4b-4064-86bd-a52ad77ed50b">
             <DataType>Double</DataType>
             <Source xsi:type="ColumnBinding" dwd:design-time-name="88d59134-365a-45dd-99e1-923a9cce265f">
@@ -1351,7 +1351,7 @@
         </Measure>
         <Measure dwd:design-time-name="47e86e6b-f724-4147-84ba-0f3df12ebb50">
           <ID>Total Including Tax</ID>
-          <Name>Total Including Tax - FactOrder</Name>
+          <Name>Total Including Tax vFactOrder</Name>
           <Source dwd:design-time-name="a014d7e8-60bb-4ab4-82e2-cc174efd9592">
             <DataType>Double</DataType>
             <Source xsi:type="ColumnBinding" dwd:design-time-name="6308eb2d-94ce-4ba8-875e-0b76192a4783">
@@ -1674,7 +1674,7 @@
         </Measure>
         <Measure dwd:design-time-name="d77ec99b-852a-41b3-b968-a96658ed9b3b">
           <ID>WWI Purchase Order ID - v Fact Transaction</ID>
-          <Name>WWI Purchase Order ID - v Fact Transaction</Name>
+          <Name>WWI Purchase Order ID vFact Transaction</Name>
           <Source dwd:design-time-name="c023ebfb-26a6-44a0-90f3-2e10dea61f27">
             <DataType>Integer</DataType>
             <Source xsi:type="ColumnBinding" dwd:design-time-name="4ca99781-00c9-4a86-b948-c867282073d3">
@@ -1691,7 +1691,7 @@
         </Measure>
         <Measure dwd:design-time-name="b220919b-9bef-4b00-9858-488712e294ef">
           <ID>Total Excluding Tax - v Fact Transaction</ID>
-          <Name>Total Excluding Tax - v Fact Transaction</Name>
+          <Name>Total Excluding Tax vFact Transaction</Name>
           <Source dwd:design-time-name="93e00279-6f65-47ca-b7e4-35c9733c668c">
             <DataType>Double</DataType>
             <Source xsi:type="ColumnBinding" dwd:design-time-name="92f5c8e1-655a-4f36-a9cb-f747539269da">
@@ -1725,7 +1725,7 @@
         </Measure>
         <Measure dwd:design-time-name="a07643e7-42c6-4d0c-8d50-8d860be7dc63">
           <ID>Total Including Tax - v Fact Transaction</ID>
-          <Name>Total Including Tax - v Fact Transaction</Name>
+          <Name>Total Including Tax vFact Transaction</Name>
           <Source dwd:design-time-name="3475d54d-6729-4fda-98f3-5f16e3f20895">
             <DataType>Double</DataType>
             <Source xsi:type="ColumnBinding" dwd:design-time-name="a1a7c8b5-a5d2-4bc0-a966-15cc2ed0e691">
