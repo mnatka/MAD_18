@@ -87,10 +87,24 @@
           <String>Wide World Importers DW</String>
         </ID>
       </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Role</Type>
+        <TimeStamp>1g1mgThf0k+zeMkDwC9qPRyK3u0=03.02.2019 10:03:3203.02.2019 10:00:26</TimeStamp>
+        <ID>
+          <String>Role</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Role</Type>
+        <TimeStamp>VKz2HXGuMvIi/6xZ/KtCS/i7Ao4=03.02.2019 10:03:3203.02.2019 10:01:43</TimeStamp>
+        <ID>
+          <String>Role 1</String>
+        </ID>
+      </ObjectSnapshot>
     </ObjectSnapshots>
     <DatabaseSnapshot>
       <Type>Microsoft.AnalysisServices.Database</Type>
-      <TimeStamp>VKDBf0grjd6vcoW+wNLABvzvIag=12.01.2019 15:01:1812.01.2019 15:01:18</TimeStamp>
+      <TimeStamp>Np4h7qqF7sxDshPX4VBeQVBIj6A=03.02.2019 10:03:3212.01.2019 15:01:18</TimeStamp>
       <ID>
         <String>Projekt_WWI</String>
       </ID>
@@ -99,5 +113,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2019-01-30T18:35:24.856667Z</LastDeployed>
+  <LastDeployed>2019-02-03T09:03:44.643333Z</LastDeployed>
 </DeploymentSnapshot>
